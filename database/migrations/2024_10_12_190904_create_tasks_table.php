@@ -16,6 +16,7 @@ return new class extends Migration
             $table->timestamps();
             $table->string('name of task');
             $table->string('description')->nullable();
+            $table->integer('length of task')->nullable();
         });
     }
 
